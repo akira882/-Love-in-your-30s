@@ -1,0 +1,429 @@
+@import url("style.css");
+
+body#tinymce {
+    padding: 0 10px !important;
+}
+
+.content p {
+    padding-bottom: 1em;
+}
+
+.content h3{
+	border-bottom: 2px solid #000;
+	border-top: 2px solid #000;
+}
+
+.content h4{
+	border-bottom: 2px dotted #000;
+}
+
+
+.col2,.sc_col2,.col3,.sc_col3,.col3,
+.sc_col3,.col3_2,.sc_col3_2,.col4,
+.sc_col4,.col4_3,.sc_col4_3 {min-height: 200px;border:1px dotted #ccc;}
+
+.col2,.sc_col2 {width: 50% !important;}
+.col3,.sc_col3 {width: 33.333333% !important;}
+.col3_2,.sc_col3_2 {width: 66.666666% !important;}
+.col4,.sc_col4 {width: 25% !important;}
+.col4_3,.sc_col4_3 {width: 75% !important;}
+
+.fontcolor.gray{color: #ccc;}
+.fontcolor.red{color: #ccc;}
+.fontcolor.green{color: #ccc;}
+.fontcolor.purple{color: #ccc;}
+.fontcolor.cyan{color: #ccc;}
+.fontcolor.yellow{color: #ccc;}
+
+.fontbackground.gray{background: #ccc;}
+.fontbackground.red{background: #ccc;}
+.fontbackground.green{background: #ccc;}
+.fontbackground.purple{background: #ccc;}
+.fontbackground.cyan{background: #ccc;}
+.fontbackground.yellow{background: #ccc;}
+
+.custom_voice br{
+	display: none;
+}
+
+.sc_popup_content{
+	display: none;
+}
+
+.gutenberg .edit-post-visual-editor *{
+    font-family: 游ゴシック体, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic",FontAwesome, sans-serif;
+}
+
+.gutenberg h2{
+	background:transparent;
+}
+
+.gutenberg .button{
+	border:none;
+	background: transparent;box-shadow: none;
+	display: block;
+	height: auto;
+}
+
+button:hover{
+	background: transparent;
+}
+
+.components-color-palette__item{
+	padding: 0;
+}
+
+
+/**********************************
+        button
+**********************************/
+
+.button-design .button span.dvaux-button_link{
+    padding: .2em 1.3em;
+    font-size: .8em;
+    letter-spacing: .2em;
+}
+
+.button.shadow span.dvaux-button_link{
+    box-shadow: 0px 2px 10px 1px #ccc;
+}
+
+.button.radius span.dvaux-button_link{
+    border-radius: 50px;
+}
+
+.button.bborder span.dvaux-button_link{
+    border:2px solid #6894b7;
+    margin: 0px;
+}
+
+.button.solid span.dvaux-button_link{
+  position: relative;
+  box-shadow: 0 5px 0 #5c96cc;
+  top:0px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+}
+
+.button.oborder span.dvaux-button_link{
+    border:2px solid #70b8f1;
+	background:#fff;
+	color: #70b8f1;
+}
+
+.button.frame span.dvaux-button_link{
+    box-shadow: 0px 0px 0px 2px #70b8f1;
+    border: 2px solid #ffffff;
+    margin: 0px;
+}
+
+.button-design .components-radio-control__option {
+    width: 90px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 0;
+}
+
+.button-design .components-radio-control__option input {
+    margin: 0 auto;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.button-design .components-radio-control {
+	border: 1px solid #ccc;
+    background: #f9f9f9;
+    padding: 15px;
+    white-space: nowrap;
+    overflow: auto;
+}
+.button-design .components-base-control__field{
+    width: 640px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/**********************************
+        sc_frame
+**********************************/
+
+.gutenberg .sc_frame{
+    overflow: inherit;
+}
+
+.sc_frame-design .components-radio-control {
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+    padding: 15px;
+    white-space: nowrap;
+    overflow: auto;
+}
+
+.sc_frame-design .components-base-control__field{
+    width: 560px;
+    display: flex;
+    flex-wrap: wrap;
+    white-space: normal;
+}
+
+.sc_frame-design .components-radio-control__option{
+    padding: 0 5px;
+    width: 140px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 0;
+}
+
+.sc_frame-design .components-radio-control__option input {
+    margin: 0 auto;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.sc_frame-design .sc_frame_wrap{
+    margin: 0em;
+    font-size: .8em;
+    text-align: left;
+}
+
+.sc_frame-design  .sc_frame{
+    border: 2px solid #777;
+    padding: .8em;
+}
+
+.sc_frame_wrap.onframe .sc_frame_title {
+    left: 1em;
+    color: #777;
+}
+
+.sc_frame_wrap.solid .sc_frame{
+    background-color: #777;
+}
+
+/**********************************
+        sc_heading
+**********************************/
+
+.sc_headline-design .components-radio-control {
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+    padding: 15px;
+    white-space: nowrap;
+    overflow: auto;
+}
+
+.sc_headline-design .components-base-control__field{
+    width: 720px;
+    display: flex;
+    flex-wrap: wrap;
+    white-space: normal;
+}
+
+.sc_headline-design .components-radio-control__option{
+    padding: 0 10px;
+    width: 140px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 0;
+}
+
+.sc_headline-design .components-radio-control__option input {
+    margin: 0 auto;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.sc_headline-design .sc_title_wrap{
+    margin: 0em;
+    font-size: .8em;
+    text-align: left;
+}
+
+.sc_title_wrap {
+    padding: .8em 1em;
+    font-size: 1em;
+    font-weight: bold;
+}
+.sc_title_wrap.solid{
+    background: #000;
+    color: #fff;
+    border-radius: 3px;
+}
+.sc_title_wrap.bborder{
+    border-width: 3px;
+    border-color: #000;
+    border-style: solid;
+    color: #000;
+}
+.sc_title_wrap.bborder.a{
+    border-width: 3px;
+    border-radius: 3px;
+}
+.sc_title_wrap.bborder.tb{
+    border-width: 3px 0 3px 0;
+}
+.sc_title_wrap.bborder.b{
+    border-width:0 0 3px 0;
+}
+.sc_title_wrap.stech{
+    background: #000;
+    box-shadow: 0px 0px 0px 5px #000;
+    border: dashed 2px #fff;
+    color: #fff;
+    border-radius: 3px;
+}
+.sc_title_wrap.bborder.l{
+    border-width: 0 0 0 8px;
+    background-color: #eee;
+}
+.sc_title_wrap.rlborder{
+position: relative;
+text-align: center;
+}
+.sc_title_wrap.rlborder .before{
+content: '';
+position: absolute;
+top: 50%;
+width: 100%;
+height: 2px;
+left: 0;
+background-color: black;
+}
+
+.sc_title_wrap.rlborder .sc_title {
+    background: #fff;
+    position: relative;
+    display: inline-block;
+    padding: 0 2em;
+}
+.sc_title_wrap.fukidasi {
+  position: relative;
+  background-color: #000;
+  border-radius: 6px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.sc_title_wrap.fukidasi .before,.sc_title_wrap.fukidasi .after {
+  position: absolute;
+  top: 100%;
+  left: 30px;
+  content: '';
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top: 10px solid #000;
+}
+.sc_title_wrap.count {
+position: relative;
+background: #efefef;
+padding-left: 25px;
+}
+.sc_title_wrap.count .before {
+line-height: 30px;
+position: absolute;
+color: white;
+background: #000;
+font-size: 1.2em;
+width: 30px;
+text-align: center;
+left: -1.1em;
+top:0;
+bottom: 0;
+display: -webkit-flex;
+display: flex;
+-webkit-align-items: center;
+align-items: center;
+-webkit-justify-content: center;
+justify-content: center;
+}
+.sc_title_wrap.countrad {
+position: relative;
+background: #eee;
+border-radius: 0 5px 5px 0;
+padding-left: 25px;
+}
+.sc_title_wrap.countrad .before {
+line-height: 30px;
+position: absolute;
+color: white;
+background: #000;
+font-size: 1.2em;
+width: 35px;
+text-align: center;
+left: -1.1em;
+top: 50%;
+bottom: -50%;
+-moz-transform: translateY(-50%);
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+border: solid 3px white; 
+border-radius: 50%;
+display: -webkit-flex;
+display: flex;
+-webkit-align-items: center;
+align-items: center;
+-webkit-justify-content: center;
+justify-content: center;
+}
+.sc_title_wrap.headtag {
+    background:#000;
+    color: #fff;
+    vertical-align: middle;
+    border-radius: 25px 0px 0px 25px;
+}
+.sc_title_wrap.headtag .before {color: #ccc;margin-right: 8px;float: left;font-size: 1.05em;}
+
+/**********************************
+        sc_voice
+**********************************/
+
+
+.sc_voice-design .components-radio-control {
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+    padding: 15px;
+    white-space: nowrap;
+    overflow: auto;
+}
+
+.sc_voice-design .components-base-control__field{
+    display: flex;
+    flex-wrap: wrap;
+    white-space: normal;
+    width:450px;
+}
+
+.sc_voice-design .components-radio-control__option{
+    padding: 0 5px;
+    width: 90px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 0;
+}
+
+.sc_voice-design .components-radio-control__option input {
+    margin: 0 auto;
+    margin-bottom: 5px;
+    display: block;
+}
+
+
+.voice_icon {
+    width: 80px;
+    height: 80px;
+}
+
+.voice_icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.voice-settings .components-font-size-picker__custom-input {
+    display: none;
+}
